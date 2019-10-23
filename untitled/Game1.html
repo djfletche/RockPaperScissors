@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GAME</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<! This is used to create the set up of the game.
+    we are going to be using a basic set up>
+<body>
+    <header>
+        <h1>Rock . Paper . Scissors</h1>
+    </header>
+<! The set up is going to use a player and a computer and this is going to be set up by the differnt
+        divisions>
+    <div class="Score-board">
+
+        <div id="Player1" class="badge">Player</div>
+        <div id="Computer" class="badge">Computer</div>
+
+        <span id="PlayerScore">0</span>:<span id="ComputerScore">0</span>
+    </div>
+
+    <div class = "Result">
+        <p> Paper Beats Rock</p>
+    </div>
+
+    <! Here we are creating the choices that are going to be chosen.
+        by using one div we can place all of the choices in one block then by spacing them allows
+        you to have them organized.
+    <div class = "Choices">
+
+        <div class ="choice">
+            <img src="src/Paper.PNG" alt="Paper" id="p" width="100" length="100">
+        </div>
+        <div class ="choice">
+            <img src="src/Rock.PNG" alt="Rock" id="r" width="100" length="100">
+        </div>
+        <div class ="choice">
+            <img src="src/Scissors.PNG" alt="Scissors" id="s" width="100" length="100">
+        </div>
+    </div>
+
+    <p id="User-Action"> Select Your Choice</p>
+
+    <script src="app.js" charset="utf-8"> </script>
+
+    </body>
+</html>
